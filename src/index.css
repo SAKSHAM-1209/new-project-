@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Fonts Import inside base layer */
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700&family=Inter:wght@300;400;500;600;700&display=swap');
+}
+
+/* Luxury Wedding Venue Platform - Premium Design System */
+
+@layer base {
+  :root {
+    /* Deep Navy Primary */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    /* Cards & Surfaces */
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Deep Royal Navy - Primary Brand */
+    --primary: 224 47% 20%;
+    --primary-foreground: 45 100% 96%;
+
+    /* Champagne Gold - Accent */
+    --secondary: 43 74% 66%;
+    --secondary-foreground: 222 47% 11%;
+
+    /* Muted & Subtle */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    /* Gold Accent */
+    --accent: 43 74% 49%;
+    --accent-foreground: 222 47% 11%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders & Inputs */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 43 74% 49%;
+
+    --radius: 0.75rem;
+
+    /* Custom Premium Colors */
+    --gold: 43 74% 49%;
+    --gold-light: 45 100% 96%;
+    --gold-dark: 43 74% 36%;
+    --navy: 224 47% 20%;
+    --navy-light: 224 40% 35%;
+    --navy-dark: 224 55% 12%;
+    --cream: 45 33% 97%;
+    --warm-gray: 220 9% 46%;
+
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(43 74% 49%), hsl(45 80% 65%));
+    --gradient-navy: linear-gradient(135deg, hsl(224 47% 20%), hsl(224 55% 12%));
+    --gradient-hero: linear-gradient(180deg, hsla(224, 47%, 20%, 0.85), hsla(224, 55%, 12%, 0.95));
+    --gradient-luxury: linear-gradient(135deg, hsl(224 47% 20%) 0%, hsl(224 55% 12%) 50%, hsl(43 74% 36%) 100%);
+
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -4px hsla(224, 47%, 20%, 0.08);
+    --shadow-card: 0 8px 32px -8px hsla(224, 47%, 20%, 0.12);
+    --shadow-hover: 0 16px 48px -12px hsla(224, 47%, 20%, 0.18);
+    --shadow-gold: 0 8px 32px -8px hsla(43, 74%, 49%, 0.25);
+
+    /* Sidebar */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 224 47% 20%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 43 74% 49%;
+  }
+
+  .dark {
+    --background: 224 55% 8%;
+    --foreground: 45 100% 96%;
+    --card: 224 50% 12%;
+    --card-foreground: 45 100% 96%;
+    --popover: 224 50% 12%;
+    --popover-foreground: 45 100% 96%;
+    --primary: 43 74% 49%;
+    --primary-foreground: 224 55% 12%;
+    --secondary: 224 40% 25%;
+    --secondary-foreground: 45 100% 96%;
+    --muted: 224 40% 18%;
+    --muted-foreground: 220 14% 65%;
+    --accent: 43 74% 49%;
+    --accent-foreground: 224 55% 12%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 224 40% 20%;
+    --input: 224 40% 20%;
+    --ring: 43 74% 49%;
+    --sidebar-background: 224 55% 10%;
+    --sidebar-foreground: 45 100% 96%;
+    --sidebar-primary: 43 74% 49%;
+    --sidebar-primary-foreground: 224 55% 12%;
+    --sidebar-accent: 224 40% 18%;
+    --sidebar-accent-foreground: 45 100% 96%;
+    --sidebar-border: 224 40% 20%;
+    --sidebar-ring: 43 74% 49%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  /* Premium Button Styles */
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-8 py-4 rounded-lg font-medium 
+           transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+    box-shadow: var(--shadow-card);
+  }
+
+  .btn-primary:hover {
+    box-shadow: var(--shadow-hover);
+  }
+
+  .btn-gold {
+    @apply px-8 py-4 rounded-lg font-medium transition-all duration-300 
+           hover:shadow-lg hover:-translate-y-0.5 text-navy-dark;
+    background: var(--gradient-gold);
+    box-shadow: var(--shadow-gold);
+  }
+
+  .btn-outline-gold {
+    @apply px-8 py-4 rounded-lg font-medium transition-all duration-300 
+           border-2 hover:-translate-y-0.5;
+    border-color: hsl(var(--accent));
+    color: hsl(var(--accent));
+  }
+
+  .btn-outline-gold:hover {
+    background: hsl(var(--accent));
+    color: hsl(var(--navy-dark));
+  }
+
+  /* Premium Card Styles */
+  .card-premium {
+    @apply bg-card rounded-2xl overflow-hidden transition-all duration-500;
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-premium:hover {
+    @apply -translate-y-2;
+    box-shadow: var(--shadow-hover);
+  }
+
+  /* Gold Text */
+  .text-gold-gradient {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Luxury Background */
+  .bg-navy-gradient {
+    background: var(--gradient-navy);
+  }
+
+  .bg-luxury-gradient {
+    background: var(--gradient-luxury);
+  }
+
+  /* Premium Input */
+  .input-premium {
+    @apply w-full px-5 py-4 bg-white border border-border rounded-xl 
+           transition-all duration-300 focus:outline-none focus:ring-2;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .input-premium:focus {
+    border-color: hsl(var(--accent));
+    --tw-ring-color: hsla(43, 74%, 49%, 0.2);
+  }
+
+  /* Marquee Animation */
+  @keyframes marquee {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); }
+  }
+
+  .animate-marquee {
+    animation: marquee 8s linear infinite;
+    will-change: transform;
+    transform: translateZ(0);
+  }
+
+  .animate-marquee:hover {
+    animation-play-state: paused;
+  }
+
+  @media (max-width: 768px) {
+    .animate-marquee {
+      animation: marquee 12s linear infinite;
+    }
+  }
+
+  /* Fade In Up Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+
+  .container-premium {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Social Buttons */
+  .social-btn {
+    @apply py-3 rounded-xl border border-border font-medium 
+           text-foreground bg-white transition-all duration-300 
+           flex items-center justify-center gap-2;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .social-btn:hover {
+    background: linear-gradient(135deg, hsl(224 47% 20%), hsl(224 55% 12%));
+    color: white;
+    box-shadow: var(--shadow-hover);
+    transform: scale(1.05);
+    backdrop-filter: blur(6px);
+  }
+}
