@@ -136,7 +136,7 @@ const ContactPage = () => {
 
               {/* Call */}
               <a
-                href="tel:+919305812043"
+                href="tel:+918726126607"
                 className="flex items-start gap-4 p-5 bg-card rounded-2xl border border-border 
                            hover:border-blue-300 hover:shadow-card transition-all"
               >
@@ -149,7 +149,7 @@ const ContactPage = () => {
                     Call Us
                   </h3>
                   <p className="text-muted-foreground text-sm">
-                    +91 9305812043
+                    +91 8726126607
                   </p>
                   <span className="text-xs text-blue-600 mt-1 block">
                     Available Always
