@@ -24,10 +24,11 @@ import { toast } from "sonner";
 
 import { useFavorites } from "@/contexts/FavoritesContext";
 
-import venue1 from "@/assets/venue1.jpg";
+import venue1 from "@/assets/venue1_1.jpg";
 import venue2 from "@/assets/venue2.jpg";
 import venue3 from "@/assets/venue3.jpg";
 import venue4 from "@/assets/venue4.jpg";
+
 
 const fallbackImages = [venue1, venue2, venue3, venue4];
 
