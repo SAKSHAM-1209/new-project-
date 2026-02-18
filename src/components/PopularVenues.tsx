@@ -77,7 +77,7 @@ const venues: PopularVenue[] = [
     reviews: 68,
     budget: "₹8 Lakh – ₹12 Lakh",
     perPlate: 1100,
-    contact: "+91 9305812043",
+    contact: "+91 8726126607",
   },
   {
     id: 4,
@@ -91,7 +91,7 @@ const venues: PopularVenue[] = [
     rating: 4.4,
     reviews: 63,
     perPlate: 950,
-    contact: "+91 9305812043",
+    contact: "+91 8726126607",
   },
   {
     id: 34,
@@ -107,7 +107,7 @@ const venues: PopularVenue[] = [
     reviews: 102,
     budget: "₹8 Lakh – ₹12 Lakh",
     perPlate: 2000,
-    contact: "+91 9305812043",
+    contact: "+91 8726126607",
   },
   {
     id: 9,
@@ -122,7 +122,7 @@ const venues: PopularVenue[] = [
     reviews: 94,
     budget: "₹5 Lakh – ₹8 Lakh",
     perPlate: 1500,
-    contact: "+91 9305812043",
+    contact: "+91 8726126607",
   },
   {
     id: 17,
@@ -137,7 +137,7 @@ const venues: PopularVenue[] = [
     reviews: 59,
     budget: "₹3 Lakh – ₹5 Lakh",
     perPlate: 1100,
-    contact: "+91 9305812043",
+    contact: "+91 8726126607",
     ownCateringAllowed: true,
   },
   {
@@ -152,7 +152,7 @@ const venues: PopularVenue[] = [
     rating: 3.6,
     reviews: 89,
     perPlate: 1250,
-    contact: "+91 9305812043",
+    contact: "+91 8726126607",
     menuBasedPricing: true,
   },
 ];
