@@ -345,35 +345,25 @@ import venue40_7 from "@/assets/venue40_7.jpg";
 import venue40_8 from "@/assets/venue40_8.jpg";
 
 // // ===== VENUE 41 =====
-// import venue41_1 from "@/assets/venue41_1.jpg";
-// import venue41_2 from "@/assets/venue41_2.jpg";
-// import venue41_3 from "@/assets/venue41_3.jpg";
-// import venue41_4 from "@/assets/venue41_4.jpg";
-// import venue41_5 from "@/assets/venue41_5.jpg";
-// import venue41_6 from "@/assets/venue40_6.jpg";
-// import venue40_7 from "@/assets/venue40_7.jpg";
-// import venue40_8 from "@/assets/venue40_8.jpg";
-
+import venue41_1 from "@/assets/venue41_1.jpg";
+import venue41_2 from "@/assets/venue41_2.jpg";
+import venue41_3 from "@/assets/venue41_3.jpg";
+import venue41_4 from "@/assets/venue41_4.jpg";
+import venue41_5 from "@/assets/venue41_5.jpg";
+import venue41_6 from "@/assets/venue40_6.jpg";
 // // ===== VENUE 42 =====
-// import venue42_1 from "@/assets/venue42_1.jpg";
-// import venue42_2 from "@/assets/venue42_2.jpg";
-// import venue42_3 from "@/assets/venue42_3.jpg";
-// import venue42_4 from "@/assets/venue42_4.jpg";
-// import venue42_5 from "@/assets/venue42_5.jpg";
-// import venue40_6 from "@/assets/venue40_6.jpg";
-// import venue40_7 from "@/assets/venue40_7.jpg";
-// import venue40_8 from "@/assets/venue40_8.jpg";
-
+import venue42_1 from "@/assets/venue42_1.jpg";
+import venue42_2 from "@/assets/venue42_2.jpg";
+import venue42_3 from "@/assets/venue42_3.jpg";
+import venue42_4 from "@/assets/venue42_4.jpg";
+import venue42_5 from "@/assets/venue42_5.jpg";
 
 // ===== VENUE 43 =====
-// import venue43_1 from "@/assets/venue43_1.jpg";
-// import venue43_2 from "@/assets/venue43_2.jpg";
-// import venue43_3 from "@/assets/venue43_3.jpg";
-// import venue43_4 from "@/assets/venue43_4.jpg";
-// import venue40_5 from "@/assets/venue40_5.jpg";
-// import venue40_6 from "@/assets/venue40_6.jpg";
-// import venue40_7 from "@/assets/venue40_7.jpg";
-// import venue40_8 from "@/assets/venue40_8.jpg";
+import venue43_1 from "@/assets/venue43_1.jpg";
+import venue43_2 from "@/assets/venue43_2.jpg";
+import venue43_3 from "@/assets/venue43_3.jpg";
+import venue43_4 from "@/assets/venue43_4.jpg";
+
 
 // ===== DEFAULT =====
 const defaultVenue = venue1;
@@ -443,25 +433,25 @@ export const allVenues: Venue[] = [
   {
     id: 3,
     images: [venue3],
-   name: "Uttam Garden",
-  location: "Kanpur",
-  address: "98W4+PJW, Arra Rd, near Chitra Degree College, Galla Mandi, Naubasta, Kanpur, Uttar Pradesh 208021",
-  capacity: "500-600",
-  foodType: "both",
-  vegPrice: null,
-  perPlate: null,
-  ownCateringAllowed: true,      // ✅ Catering by own
-  menuBasedPricing: false,
-  perPlateNote: "Customer can arrange catering on their own.",
+    name: "Uttam Garden",
+    location: "Kanpur",
+    address: "98W4+PJW, Arra Rd, near Chitra Degree College, Galla Mandi, Naubasta, Kanpur, Uttar Pradesh 208021",
+    capacity: "500-600",
+    foodType: "both",
+    vegPrice: null,
+    perPlate: null,
+    ownCateringAllowed: true,      // ✅ Catering by own
+    menuBasedPricing: false,
+    perPlateNote: "Customer can arrange catering on their own.",
 
-  manager: "",
-  contact: "+91 8726126607",
-  rating: 3.7,
-  reviews: null,
-  mapLink: "https://maps.app.goo.gl/P8H2YkA9vEwhnRSD8",
-  budget: "₹5 Lakh – ₹8 Lakh"
-},
-{
+    manager: "",
+    contact: "+91 8726126607",
+    rating: 3.7,
+    reviews: null,
+    mapLink: "https://maps.app.goo.gl/P8H2YkA9vEwhnRSD8",
+    budget: "₹5 Lakh – ₹8 Lakh"
+  },
+  {
     id: 4,
     images: [venue4, venue4_2],
     name: "Annad Manglam AC Banquet",
@@ -583,24 +573,24 @@ export const allVenues: Venue[] = [
   {
     id: 11,
     images: [venue11, venue11_2, venue11_3],
-     name: "Vibha Raj Palace",
-  location: "Kanpur",
-  address: "15 A, near Custom, Central Excise Colony, Gujaini, Kanpur, Uttar Pradesh 208022",
-  capacity: "600-700",
-  foodType: "both",
-  vegPrice: null,
-  perPlate: null,
-  ownCateringAllowed: true,      // ✅ Catering by own
-  menuBasedPricing: false,
-  perPlateNote: "Customer can arrange catering on their own.",
+    name: "Vibha Raj Palace",
+    location: "Kanpur",
+    address: "15 A, near Custom, Central Excise Colony, Gujaini, Kanpur, Uttar Pradesh 208022",
+    capacity: "600-700",
+    foodType: "both",
+    vegPrice: null,
+    perPlate: null,
+    ownCateringAllowed: true,      // ✅ Catering by own
+    menuBasedPricing: false,
+    perPlateNote: "Customer can arrange catering on their own.",
 
-  manager: "",
-  contact: "+91 8052003999",
-  rating: 4.3,
-  reviews: null,
-  mapLink: "https://maps.app.goo.gl/RPE8mRj3wurpDVe46",
-  budget: "₹8 Lakh – ₹12 Lakh"
-},
+    manager: "",
+    contact: "+91 8052003999",
+    rating: 4.3,
+    reviews: null,
+    mapLink: "https://maps.app.goo.gl/RPE8mRj3wurpDVe46",
+    budget: "₹8 Lakh – ₹12 Lakh"
+  },
   {
     id: 12,
     images: [venue12],
@@ -1100,8 +1090,7 @@ export const allVenues: Venue[] = [
     reviews: 95,
     mapLink: "https://maps.app.goo.gl/7EULCriQQuaFS9VcA?g_st=ic",
     budget: "₹8 Lakh – ₹12 Lakh",
-
-    vegPrice: null,               // not applicable
+  vegPrice: null,               // not applicable
     perPlate: null,               // not applicable
     ownCateringAllowed: true      // ✅ correct
   },
@@ -1136,12 +1125,902 @@ export const allVenues: Venue[] = [
     reviews: 86,
     mapLink: "https://maps.app.goo.gl/GHatZn61pD1MVReq9?g_st=ic",
     budget: "₹5 Lakh – ₹8 Lakh",
-
     vegPrice: null,              // ❗ not applicable
     perPlate: null,              // ❗ not applicable
     ownCateringAllowed: true,     // ✅ key flag
+  },
+  {
+    id: 41,
+    images: [venue41_1, venue41_2, venue41_3, venue41_4, venue41_5, venue41_6],
+    name: "Luv Kush Vatika",
+    location: "Kanpur",
+    address: "H796+9WW, Resort Rd, New Kanpur City, Uttar Pradesh 209217",
+    capacity: "100-1000",
+    foodType: "both",
+    vegPrice: 1200,
+    nonVegPrice: 2500,
+    perPlate: 1200,
+    rating: 4.4,
+    reviews: null,
+    manager: "Kulmeet Singh Chabra",
+    contact: "+91 8726126607",
+    mapLink: "https://maps.app.goo.gl/WykKfYEFPKPANrPL6",
+    budget: "₹8 Lakh – ₹12 Lakh", // approx range (based on price)
+  },
+  {
+    id: 42,
+    images: [venue42_1, venue42_2, venue42_3, venue42_4, venue42_5],
+    name: "Balaji Party Lawn",
+    location: "Kanpur",
+    address: "Sanidev Chauraha, Kanpur, Uttar Pradesh 209217",
+    capacity: "700-800",
+    foodType: "veg",
+    vegPrice: 1000,
+    perPlate: 1000,
+    rating: 4.1,
+    reviews: null,
+    manager: "Abhishek",
+    contact: "+91 8726126607",
+    mapLink: "https://maps.app.goo.gl/xn6SszeVQ3bwtHJMA",
+    budget: "₹5 Lakh – ₹8 Lakh"
+  },
+  {
+    id: 43,
+    images: [venue43_1, venue43_2, venue43_3, venue43_4],
+    name: "K.D Resort",
+    location: "Kanpur",
+    address: "H796+9WW, Resort Rd, New Kanpur City, Uttar Pradesh 209217",
+    capacity: "100-1000",
+    foodType: "both",
+    vegPrice: 1200,
+    nonVegPrice: 2500,
+    perPlate: 1200, // filter ke liye base
+    rating: 4.3,
+    reviews: null,
+    manager: "Kulmeet Singh Chabra",
+    contact: "+91 8726126607",
+    mapLink: "https://maps.app.goo.gl/eaHsqYCmDHjMgq978",
+    budget: "₹8 Lakh – ₹12 Lakh"
+  },
+  {
+  id: 44,
+  images: ["/assets/placeholder.jpg"], // photos baad me add kar lena
+  name: "Kailash Palace Lawn 2",
+  location: "Unnao",
+  address: "Bala Ji Hospital Trauma Center, Rajdhani Marg, Ganga Ghat, Shuklaganj, Unnao, Uttar Pradesh 209861",
+  capacity: "1000",
+  foodType: "veg",
+  vegPrice: 800,
+  perPlate: 800,
+  perPlateNote: "₹800–₹1500/plate (Veg)",
+  rating: 4.0,
+  reviews: null,
+  manager: "Shobhit Awasthi",
+  contact: "+91 7355498622",
+  mapLink: "https://share.google/PCqVaNIJgmeeoVQpi",
+  budget: "₹5 Lakh – ₹8 Lakh"
+},
+{
+  id: 45,
+  images: ["/assets/placeholder.jpg"], // photos baad me add kar lena
+  name: "Vibha Raj Palace",
+  location: "Kanpur",
+  address: "15 A, near Custom, Central Excise Colony, Gujaini, Kanpur, Uttar Pradesh 208022",
+  capacity: "600-700",
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+  ownCateringAllowed: true,   // ✅ important
+  menuBasedPricing: false,
+  perPlateNote: "Customer can arrange catering on their own.",
+  rating: 4.3,
+  reviews: null,
+  manager: "",
+  contact: "+91 8052003999",
+  mapLink: "https://maps.app.goo.gl/RPE8mRj3wurpDVe46",
+  budget: "₹8 Lakh – ₹12 Lakh"
+},
+{
+  id: 46,
+  images: ["/assets/placeholder.jpg"], // photos baad me add kar lena
+  name: "Krishna Lawn",
+  location: "Unnao",
+  address: "Lucknow Road, Opposite Power House, near Industrial Area Dahi Chowki, Unnao, Uttar Pradesh 209801",
+  capacity: "50-200",
+  foodType: "veg",
+  vegPrice: null,
+  perPlate: null,
+  menuBasedPricing: true,   // ✅ best assumption
+  ownCateringAllowed: false,
+  perPlateNote: "Pricing depends on menu selection",
+  rating: 4.0,
+  reviews: null,
+  manager: "Abhi Krishna Gupta",
+  contact: "+91 9794449787",
+  mapLink: "https://maps.app.goo.gl/17Cs68mzuUitJTCc6",
+  budget: "₹1 Lakh – ₹3 Lakh"
+},
+{
+  id: 47,
+  images: ["/assets/placeholder.jpg"],
+  name: "Omkareshwar Banquets",
+  location: "Unnao",
+  address: "Marhalla Chowraha Purana, DBS Ground, Near Shuklaganj Stadium, Rajdhani Marg, Shuklaganj, Uttar Pradesh 209862",
 
-  }
+  capacity: "500-600",
+
+  // 🍽 Catering by own
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: 500, // reference only
+
+  ownCateringAllowed: true,
+  menuBasedPricing: false,
+  perPlateNote: "Estimated ₹500 • Catering by own",
+
+  rating: 4.1,
+  reviews: null,
+
+  manager: "Pranjul",
+  contact: "+91 7678230725",
+
+  mapLink: "https://maps.app.goo.gl/ymbaJs6GKayTkMJ66",
+
+  budget: "₹5 Lakh – ₹8 Lakh"
+},
+{
+  id: 48,
+  images: ["/assets/placeholder.jpg"],
+  name: "Saubhagya Shree Palace & Lawn",
+  location: "Unnao",
+  address: "Marlaha Chauraha, Azad Marg, Shuklaganj, Gajiyakedha, Uttar Pradesh 209862",
+
+  capacity: "1000",
+
+  // 🍽 Menu based pricing
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  menuBasedPricing: true,
+  ownCateringAllowed: false,
+  perPlateNote: "Pricing depends on menu",
+
+  rating: 4.8,
+  reviews: null,
+
+  manager: "Pranjul Pandey",
+  contact: "+91 9278296305",
+
+  mapLink: "https://maps.app.goo.gl/U95JhWMEW3i7XVia7",
+
+  budget: "₹8 Lakh – ₹12 Lakh"
+},
+{
+  id: 49,
+  images: ["/assets/placeholder.jpg"],
+  name: "Shailshree Palace (Chay-Shay)",
+  location: "Unnao",
+  address: "Shuklaganj, Uttar Pradesh", // address missing tha
+
+  capacity: "50-800",
+
+  // 🍽 Range pricing
+  foodType: "veg",
+  vegPrice: 800,
+  perPlate: 800,
+  perPlateNote: "₹800–₹1200/plate (depends on gathering)",
+
+  menuBasedPricing: false,
+  ownCateringAllowed: false,
+
+  rating: 3.6,
+  reviews: null,
+
+  manager: "Shravan Kumar Shukla",
+  contact: "+91 9889008949",
+
+  mapLink: "https://maps.app.goo.gl/vrpnsaNRj96Rg1jK8",
+
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 50,
+  images: ["/assets/placeholder.jpg"],
+  name: "Tasi Kitchen",
+  location: "Unnao",
+  address: "Lucknow Road, Opposite Power House, near Industrial Area Dahi Chowki, Unnao, Uttar Pradesh 209801",
+
+  capacity: "50-100",
+
+  // 🍽 Pricing
+  foodType: "veg",
+  vegPrice: 800,
+  perPlate: 800,
+
+  rating: 4.8,
+  reviews: null,
+
+  manager: "Abhi Krishna Gupta",
+  contact: "+91 9794449787",
+
+  mapLink: "https://share.google/0PDBCLtEnAfsqXzRY",
+
+  budget: "₹1 Lakh – ₹3 Lakh"
+},
+{
+  id: 51,
+  images: ["/assets/placeholder.jpg"],
+  name: "Hotel Bridge",
+  location: "Unnao",
+  address: "595, Lucknow Rd, Shiv Nagar, Unnao, Uttar Pradesh 209801",
+
+  capacity: "400-450",
+
+  // 🍽 Pricing range
+  foodType: "veg",
+  vegPrice: 800,
+  perPlate: 800,
+  perPlateNote: "₹800–₹1000/plate",
+
+  rating: 4.8,
+  reviews: null,
+
+  manager: "Rahul Singh",
+  contact: "+91 6307951300",
+
+  mapLink: "https://share.google/0PDBCLtEnAfsqXzRY",
+
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 52,
+  images: ["/assets/placeholder.jpg"],
+  name: "Shehnai Wedding Lawn",
+  location: "Unnao",
+  address: "Azad Nagar, Shuklaganj, Netua Grameen, Uttar Pradesh",
+
+  capacity: "1000",
+
+  // 🍽 Catering by own
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  ownCateringAllowed: true,
+  menuBasedPricing: false,
+  perPlateNote: "Customer can arrange catering on their own",
+
+  rating: 4.4,
+  reviews: null,
+
+  manager: "Manoj Kumar Rawat",
+  contact: "+91 8115920820",
+
+  mapLink: "https://share.google/8RIf0RdWEPAQEKAFb",
+
+  budget: "₹8 Lakh – ₹12 Lakh"
+},
+{
+  id: 53,
+  images: ["/assets/placeholder.jpg"],
+  name: "Muskan Palace",
+  location: "Unnao",
+  address: "In front of Chandmari, Tahseel Road, Bichhiya, Uttar Pradesh 209801",
+
+  capacity: "1000-1500",
+
+  // 🍽 Menu based
+  foodType: "veg",
+  vegPrice: null,
+  perPlate: null,
+
+  menuBasedPricing: true,
+  ownCateringAllowed: false,
+  perPlateNote: "Pricing depends on menu",
+
+  rating: 4.5,
+  reviews: null,
+
+  manager: "Harsh Deep Singh",
+  contact: "+91 7905461339",
+
+  mapLink: "https://share.google/6Gdh7c6ipnioFO7Bc",
+
+  budget: "₹12 Lakh+"
+},
+{
+  id: 54,
+  images: ["/assets/placeholder.jpg"],
+  name: "J.P Palace",
+  location: "Unnao",
+  address: "GFVH+VMC, Ring Rd, Narendra Nagar, Lok Nagar, Unnao, Uttar Pradesh 209801",
+
+  capacity: "250-300",
+
+  // 🍽 Menu based
+  foodType: "veg",
+  vegPrice: null,
+  perPlate: null,
+
+  menuBasedPricing: true,
+  ownCateringAllowed: false,
+  perPlateNote: "Pricing depends on menu",
+
+  rating: 3.6,
+  reviews: null,
+
+  manager: "Shobhit Gupta",
+  contact: "+91 9451411000",
+
+  mapLink: "https://share.google/hy7rF8HP4wZeifURg",
+
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 55,
+  images: ["/assets/placeholder.jpg"],
+  name: "Swarn Mahal",
+  location: "Unnao",
+  address: "Lucknow Road, Opposite Power House, near Industrial Area Dahi Chowki, Unnao, Uttar Pradesh 209801",
+
+  capacity: "70-220",
+
+  // 🍽 Pricing
+  foodType: "veg",
+  vegPrice: 950,
+  perPlate: 950,
+
+  rating: 4.8,
+  reviews: null,
+
+  manager: "Abhi Krishna Gupta",
+  contact: "+91 9794449787",
+
+  mapLink: "https://share.google/0PDBCLtEnAfsqXzRY",
+
+  budget: "₹1 Lakh – ₹3 Lakh"
+},
+{
+  id: 56,
+  images: ["/assets/placeholder.jpg"],
+  name: "Park View Palace",
+  location: "Unnao",
+  address: "Krishna Nagar, 116, Kanpur - Lucknow Rd, Moti Nagar, Chaudrana, Taki, Unnao, Uttar Pradesh 209801",
+
+  capacity: "500-700",
+
+  // 🍽 Catering by own
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  ownCateringAllowed: true,
+  menuBasedPricing: false,
+  perPlateNote: "Customer can arrange catering on their own",
+
+  rating: 3.7,
+  reviews: null,
+
+  manager: "R.K Singh",
+  contact: "+91 9838641275",
+
+  mapLink: "https://share.google/ek8KdkDgIKM3qFCTx",
+
+  budget: "₹5 Lakh – ₹8 Lakh"
+},
+{
+  id: 57,
+  images: ["/assets/placeholder.jpg"],
+  name: "Celebration Banquet",
+  location: "Unnao",
+  address: "Kumedan Khera, Lucknow-Kanpur NH-25 Road, near Central School, Unnao, Uttar Pradesh 209801",
+
+  capacity: "1500-2000",
+
+  // 🍽 Catering by own (estimated reference price diya hai)
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: 1200,
+
+  ownCateringAllowed: true,
+  menuBasedPricing: false,
+  perPlateNote: "Estimated ₹1200 • Catering by own",
+
+  rating: 4.4,
+  reviews: null,
+
+  manager: "Vikram Jain",
+  contact: "+91 9566134964",
+
+  mapLink: "https://share.google/thozsV3WtYcau0VrQ",
+
+  budget: "₹12 Lakh+"
+},
+{
+  id: 58,
+  images: ["/assets/placeholder.jpg"],
+  name: "Platinum Banquet",
+  location: "Unnao",
+  address: "Lucknow Road, Opposite Power House, near Industrial Area Dahi Chowki, Unnao, Uttar Pradesh 209801",
+
+  capacity: "150-500",
+
+  // 🍽 Pricing
+  foodType: "veg",
+  vegPrice: 950,
+  perPlate: 950,
+
+  rating: 4.8,
+  reviews: null,
+
+  manager: "Abhi Krishna Gupta",
+  contact: "+91 9794449787",
+
+  mapLink: "https://share.google/0PDBCLtEnAfsqXzRY",
+
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 59,
+  images: ["/assets/placeholder.jpg"],
+  name: "Hotel Gagan Plaza",
+  location: "Kanpur",
+  address: "63/06, The Mall, near Murray Company Bridge, Kanpur, Uttar Pradesh",
+
+  capacity: "250-300",
+
+  // 🍽 Pricing (veg only mentioned)
+  foodType: "veg",
+  vegPrice: 1050,
+  perPlate: 1050,
+
+  rating: 3.6,
+  reviews: null,
+
+  manager: "Sanjay Sharma",
+  contact: "+91 8726039098",
+
+  mapLink: "https://maps.app.goo.gl/gKcmaA4jJrXfqHEN8",
+
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 60,
+  images: ["/assets/placeholder.jpg"],
+  name: "Hotel The Legend",
+  location: "Kanpur",
+  address: "Besides RSPL Building, Fazalganj, Kanpur, Uttar Pradesh",
+
+  capacity: "300-400",
+
+  // 🍽 Pricing (veg only available)
+  foodType: "veg",
+  vegPrice: 1100,
+  perPlate: 1100,
+
+  rating: 4.1,
+  reviews: null,
+
+  manager: "Sanjay Sharma",
+  contact: "+91 7800005999",
+
+  mapLink: "https://maps.app.goo.gl/rS65quCRdcNvuLpC6",
+
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+  //LUCKNOW VENUES
+  
+{
+  id: 61,
+  images: ["/assets/placeholder.jpg"],
+  name: "Hotel Emperio Grand & Banquet Hall",
+  location: "Lucknow",
+  address: "Plot No. 16, Kanpur Rd, Sector B, Bargawan, Alambagh, Lucknow, Uttar Pradesh 226012",
+
+  capacity: "350-400",
+
+  // 🍽 Pricing (range handled properly)
+  foodType: "both",
+  vegPrice: 750,
+  nonVegPrice: 1100,
+  perPlate: 750,
+  perPlateNote: "Veg ₹750–₹1300 | Non-Veg ₹1100–₹1350",
+
+  rating: 4.7,
+  reviews: null,
+
+  manager: "Anushka",
+  contact: "+91 8574400640",
+
+  mapLink: "https://share.google/pm94O0ZcLE0dkvY63",
+
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 62,
+  images: ["/assets/placeholder.jpg"],
+  name: "The Blossom Banquet",
+  location: "Lucknow",
+  address: "Ratan Khand, Ruchi Khand 1, Sharda Nagar, Lucknow, Uttar Pradesh 226012",
+  capacity: "300",
+  foodType: "veg",
+  vegPrice: 700,
+  perPlate: 700,
+  perPlateNote: "₹700–₹850/plate",
+  rating: 4.2,
+  manager: "M.P Singh",
+  contact: "+91 9792385000",
+  mapLink: "https://maps.app.goo.gl/ujtSafSSYhtmbiiB6",
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 63,
+  images: ["/assets/placeholder.jpg"],
+  name: "Maple Paradise",
+  location: "Lucknow",
+  address: "Amar Shaheed Path, opp. Omaxe City, Lucknow, Uttar Pradesh 226025",
+  capacity: "50-250",
+  foodType: "both",
+  vegPrice: 1100,
+  nonVegPrice: 1300,
+  perPlate: 1100,
+  perPlateNote: "Veg ₹1100+ | Non-Veg ₹1300+",
+  rating: 4.7,
+  manager: "",
+  contact: "+91 7081204445",
+  mapLink: "https://maps.app.goo.gl/EDMkEvR6DC64VBon6",
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 64,
+  images: ["/assets/placeholder.jpg"],
+  name: "Brijwasi Lawn",
+  location: "Lucknow",
+  address: "Sector B, LDA Colony, Lucknow, Uttar Pradesh 226012",
+  capacity: "100-400",
+  foodType: "veg",
+  vegPrice: 600,
+  perPlate: 600,
+  rating: 4.7,
+  manager: "Ajay Kumar Piplani",
+  contact: "+91 9793924777",
+  mapLink: "https://maps.app.goo.gl/ntsmeXY3K39bxg587",
+  budget: "₹1 Lakh – ₹3 Lakh"
+},
+{
+  id: 65,
+  images: ["/assets/placeholder.jpg"],
+  name: "Maharaja Restaurant & Banquet",
+  location: "Lucknow",
+  address: "Munshipulia, Indira Nagar, Lucknow, Uttar Pradesh 226016",
+  capacity: "80",
+  foodType: "veg",
+  vegPrice: 499,
+  perPlate: 499,
+  perPlateNote: "₹499–₹649",
+  rating: 4.5,
+  manager: "",
+  contact: "+91 9005614007",
+  mapLink: "https://maps.app.goo.gl/LurQpr9WKmxiWUTQ7",
+  budget: "Under ₹1 Lakh"
+},
+{
+  id: 66,
+  images: ["/assets/placeholder.jpg"],
+  name: "Rohia Banquet Hall & Lawn",
+  location: "Lucknow",
+  address: "SH 25, Chowk, Lucknow, Uttar Pradesh 226003",
+  capacity: "500",
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+  ownCateringAllowed: true,
+  perPlateNote: "Catering by own",
+  rating: 3.8,
+  manager: "Chandra Prakash",
+  contact: "+91 9415024908",
+  mapLink: "https://maps.app.goo.gl/dcRHQZoN8dwrHXLSA",
+  budget: "₹5 Lakh – ₹8 Lakh"
+},
+{
+  id: 67,
+  images: ["/assets/placeholder.jpg"],
+  name: "MD Marriage Lawn & Banquet Hall",
+  location: "Lucknow",
+  address: "Saadatganj, Lucknow, Uttar Pradesh 226003",
+
+  capacity: "1200-1300",
+
+  // 🍽 IMPORTANT FIX
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  ownCateringAllowed: true,
+  menuBasedPricing: false,
+  perPlateNote: "Catering by own",
+
+  rating: 3.9,
+  reviews: null,
+
+  manager: "Manish Gupta",
+  contact: "+91 9839331831",
+
+  mapLink: "https://maps.app.goo.gl/4AqFrvKqtMECpoTb6",
+
+  budget: "₹8 Lakh – ₹12 Lakh"
+},
+{
+  id: 68,
+  images: ["/assets/placeholder.jpg"],
+  name: "SAS One Farms",
+  location: "Lucknow",
+  address: "Nagram - Nilmatha Rd, Lucknow, Uttar Pradesh 226301",
+  capacity: "1000-2000",
+  foodType: "both",
+  vegPrice: 1199,
+  nonVegPrice: 1500,
+  perPlate: 1199,
+  rating: 4.6,
+  manager: "Himanshu Kalra",
+  contact: "+91 9919800008",
+  mapLink: "https://maps.app.goo.gl/UNgVyaZaLUbZkvzU7",
+  budget: "₹12 Lakh+"
+},
+{
+  id: 69,
+  images: ["/assets/placeholder.jpg"],
+  name: "C.M Estate Lawn & Banquet Hall",
+  location: "Lucknow",
+  address: "Halwasiya House, Mahatma Gandhi Marg, Hazratganj, Lucknow, Uttar Pradesh 226001",
+
+  capacity: "400",
+
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  menuBasedPricing: true,
+  ownCateringAllowed: false,
+  perPlateNote: "Pricing depends on menu",
+
+  rating: 4.4,
+  reviews: null,
+
+  manager: "Shivam Yadav",
+  contact: "+91 9559552528",
+
+  mapLink: "https://maps.app.goo.gl/gVKfQizDfu4MWs7Y6",
+  budget: "₹5 Lakh – ₹8 Lakh"
+},
+{
+  id: 70,
+  images: ["/assets/placeholder.jpg"],
+  name: "Sahu Palace Banquet",
+  location: "Lucknow",
+  address: "Picnic Spot Rd, Indira Nagar, Lucknow, Uttar Pradesh 226016",
+
+  capacity: "500",
+
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  ownCateringAllowed: true,
+  menuBasedPricing: false,
+  perPlateNote: "Catering by own",
+
+  rating: 4.4,
+  reviews: null,
+
+  manager: "",
+  contact: "+91 9452065021",
+
+  mapLink: "https://maps.app.goo.gl/twGKeMe9zwwuMvkC7",
+  budget: "₹5 Lakh – ₹8 Lakh"
+},
+{
+  id: 71,
+  images: ["/assets/placeholder.jpg"],
+  name: "Dreamy Delicacies Restaurant & Banquet",
+  location: "Lucknow",
+  address: "Lucknow, Uttar Pradesh",
+
+  capacity: "150",
+
+  foodType: "both",
+  vegPrice: 650,
+  nonVegPrice: 850,
+  perPlate: 650,
+
+  rating: 4.1,
+  reviews: null,
+
+  manager: "",
+  contact: "+91 7080903261",
+
+  mapLink: "https://maps.app.goo.gl/H8sx4YwFRPFQCjJV7",
+  budget: "₹1 Lakh – ₹3 Lakh"
+},
+{
+  id: 72,
+  images: ["/assets/placeholder.jpg"],
+  name: "Maple Delite Banquet Hall",
+  location: "Lucknow",
+  address: "Amar Shaheed Path, Omaxe City, Lucknow, Uttar Pradesh 226025",
+
+  capacity: "200-250",
+
+  foodType: "both",
+  vegPrice: 1000,
+  nonVegPrice: 1300,
+  perPlate: 1000,
+
+  rating: 4.1,
+  reviews: null,
+
+  manager: "Sanjeev Sharma",
+  contact: "+91 6392751072",
+
+  mapLink: "https://maps.app.goo.gl/HCDWUgtViuzRNQzy6",
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 73,
+  images: ["/assets/placeholder.jpg"],
+  name: "MJ Funcity Waterpark & Resort",
+  location: "Lucknow",
+  address: "Rasoolpur Sadat, Uttar Pradesh 225001",
+
+  capacity: "2500-3000",
+
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  menuBasedPricing: true,
+  ownCateringAllowed: false,
+
+  rating: 4.1,
+  reviews: null,
+
+  manager: "",
+  contact: "+91 7510001424",
+
+  mapLink: "https://maps.app.goo.gl/cm3o9my7cLEwq1rV7",
+  budget: "₹12 Lakh+"
+},
+{
+  id: 74,
+  images: ["/assets/placeholder.jpg"],
+  name: "White Palace Lawn & Banquet Hall",
+  location: "Lucknow",
+  address: "Chinhat, Lolai, Lucknow, Uttar Pradesh 226028",
+
+  capacity: "500",
+
+  foodType: "both",
+  vegPrice: null,
+  nonVegPrice: null,
+  perPlate: null,
+
+  ownCateringAllowed: true,
+  menuBasedPricing: false,
+
+  rating: 5.0,
+  reviews: null,
+
+  manager: "Sanjay",
+  contact: "+91 9795745000",
+
+  mapLink: "https://maps.app.goo.gl/hasJs5bdJgSfpvia9",
+  budget: "₹8 Lakh – ₹12 Lakh"
+},
+{
+  id: 75,
+  images: ["/assets/placeholder.jpg"],
+  name: "Shrim Restaurant & Banquet",
+  location: "Lucknow",
+  address: "Vastu Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010",
+
+  capacity: "120",
+
+  foodType: "veg",
+  vegPrice: 1200,
+  perPlate: 1200,
+
+  rating: 4.7,
+  reviews: null,
+
+  manager: "",
+  contact: "+91 9214201818",
+
+  mapLink: "https://maps.app.goo.gl/hYV5Kyg86W8brBAYA",
+  budget: "₹1 Lakh – ₹3 Lakh"
+},
+{
+  id: 76,
+  images: ["/assets/placeholder.jpg"],
+  name: "The Posh Pouf Banquet",
+  location: "Lucknow",
+  address: "LDA Colony, Alambagh, Lucknow, Uttar Pradesh 226012",
+
+  capacity: "80-100",
+
+  foodType: "both",
+  vegPrice: 1000,
+  nonVegPrice: 1250,
+  perPlate: 1000,
+
+  rating: 4.1,
+  reviews: null,
+
+  manager: "Somit Walia",
+  contact: "+91 9839011890",
+
+  mapLink: "https://maps.app.goo.gl/1tzygeaU55DrGXSb7",
+  budget: "₹1 Lakh – ₹3 Lakh"
+},
+{
+  id: 77,
+  images: ["/assets/placeholder.jpg"],
+  name: "GK Grand Banquet Hall",
+  location: "Lucknow",
+  address: "Krishna Nagar, Lucknow, Uttar Pradesh 226023",
+
+  capacity: "250",
+
+  foodType: "veg",
+  vegPrice: 950,
+  perPlate: 950,
+
+  rating: 4.4,
+  reviews: null,
+
+  manager: "Rohit Mishra",
+  contact: "+91 9873980978",
+
+  mapLink: "https://maps.app.goo.gl/ESSTp7xrDtqm5oET8",
+  budget: "₹3 Lakh – ₹5 Lakh"
+},
+{
+  id: 78,
+  images: ["/assets/placeholder.jpg"],
+  name: "JC Guest House",
+  location: "Lucknow",
+  address: "498/KA/4, Narayan Prasad Marg, Bans Mandi, Nirala Nagar, Lucknow, Uttar Pradesh 226020",
+
+  capacity: "500-600",
+
+  // 🍽 Pricing
+  foodType: "both",
+  vegPrice: 1500,
+  nonVegPrice: null,
+  perPlate: 1500,
+
+  rating: 4.0,
+  reviews: null,
+
+  manager: "",
+  contact: "+91 8874399998",
+
+  mapLink: "https://maps.app.goo.gl/4Zc4xG4TAnzbKQSZ7",
+
+  budget: "₹5 Lakh – ₹8 Lakh"
+}
+
 ];
 
 
@@ -1166,15 +2045,21 @@ const budgets = [
 const perPlateRanges = ["Under ₹800", "₹800 – ₹1200", "₹1200 – ₹1800", "₹1800 – ₹2500", "₹2500+"];
 
 const VenuesPage = () => {
+
   const [currentImage, setCurrentImage] = useState<Record<number, number>>({});
   const [showReviewBox, setShowReviewBox] = useState<number | null>(null);
   const [userRating, setUserRating] = useState(0);
   const [userReview, setUserReview] = useState("");
   const [showMobileFilter, setShowMobileFilter] = useState(false);
 
+  // 🔥 PAGINATION STATE
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 51; // 51 venues total, so 1 page
+
   const { favorites, addToFavorites, removeFromFavorites } = useFavorites();
   const { compareList, addToCompare, removeFromCompare } = useCompare();
 
+  // 🔥 FILTER STATE
   const [filters, setFilters] = useState({
     city: "",
     capacity: "",
@@ -1184,30 +2069,30 @@ const VenuesPage = () => {
     rating: "",
   });
 
-  /* ✅ Active filters count */
-  const activeFilterCount = useMemo(() => {
-    return Object.entries(filters).filter(([_, value]) => value !== "").length;
+  // ✅ FILTER CHANGE → PAGE RESET
+  useEffect(() => {
+    setCurrentPage(1);
   }, [filters]);
 
-  /* ✅ Filtered Venues (WORKING FILTER LOGIC) */
+  // 🔥 ACTIVE FILTER COUNT
+  const activeFilterCount = useMemo(() => {
+    return Object.values(filters).filter((value) => value !== "").length;
+  }, [filters]);
+
+  // 🔥 FILTER LOGIC (ONLY ONCE)
   const filteredVenues = useMemo(() => {
     return allVenues.filter((venue) => {
-      // CITY FILTER
-      if (filters.city && venue.location !== filters.city) return false;
 
-      // FOOD TYPE FILTER
+      if (filters.city && venue.location !== filters.city) return false;
       if (filters.foodType && venue.foodType !== filters.foodType) return false;
 
-      // CAPACITY FILTER
       if (filters.capacity) {
         const venueCap = venue.capacity || "";
         if (!venueCap.includes(filters.capacity.split("-")[0])) return false;
       }
 
-      // BUDGET FILTER
       if (filters.budget && venue.budget !== filters.budget) return false;
 
-      // PER PLATE FILTER
       if (filters.perPlate) {
         const price = venue.perPlate || venue.vegPrice || 0;
 
@@ -1218,15 +2103,23 @@ const VenuesPage = () => {
         if (filters.perPlate === "₹2500+" && price < 2500) return false;
       }
 
-      // RATING FILTER
       if (filters.rating && venue.rating < Number(filters.rating)) return false;
 
       return true;
     });
   }, [filters]);
 
+  // 🔥 PAGINATION LOGIC
+  const totalPages = Math.ceil(filteredVenues.length / itemsPerPage);
 
-  /* IMAGE SLIDER */
+  const startIndex = (currentPage - 1) * itemsPerPage;
+
+  const currentVenues = filteredVenues.slice(
+    startIndex,
+    startIndex + itemsPerPage
+  );
+
+  // 🔥 IMAGE SLIDER
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => {
@@ -1241,82 +2134,78 @@ const VenuesPage = () => {
     return () => clearInterval(interval);
   }, []);
 
- /* Toggle Favorite (PERMANENT FIX) */
-const toggleFavorite = (venue: Venue) => {
-  const isFav = favorites.some((f) => f.id === venue.id);
+  // 🔥 TOGGLE FAVORITE
+  const toggleFavorite = (venue: Venue) => {
+    const isFav = favorites.some((f) => f.id === venue.id);
 
-  if (isFav) {
-    removeFromFavorites(venue.id);
-  } else {
-    addToFavorites({
-      id: venue.id,
-      name: venue.name,
-      image: venue.images?.[0] || "/placeholder.jpg",
+    if (isFav) {
+      removeFromFavorites(venue.id);
+    } else {
+      addToFavorites({
+        id: venue.id,
+        name: venue.name,
+        image: venue.images?.[0] || "/placeholder.jpg",
+        location: venue.location,
 
-      location: venue.location,
+        fullAddress: venue.address
+          ? venue.address
+          : `${venue.location}, UP`,
 
-      // ✅ FULL ADDRESS FIX (IMPORTANT)
-      fullAddress: venue.address
-        ? venue.address
-        : `${venue.location}, UP`,
+        capacity: venue.capacity,
 
-      capacity: venue.capacity,
+        priceRange: venue.menuBasedPricing
+          ? "Menu Based"
+          : venue.ownCateringAllowed
+          ? "Catering By Own"
+          : venue.foodType === "both"
+          ? `Veg ₹${venue.vegPrice ?? "N/A"} | NonVeg ₹${venue.nonVegPrice ?? "N/A"}`
+          : venue.foodType === "nonveg"
+          ? `₹${venue.nonVegPrice ?? venue.perPlate ?? "N/A"}/plate`
+          : `₹${venue.perPlate ?? venue.vegPrice ?? "N/A"}/plate`,
 
-      priceRange: venue.menuBasedPricing
-        ? "Menu Based"
-        : venue.ownCateringAllowed
-        ? "Catering By Own"
-        : venue.foodType === "both"
-        ? `Veg ₹${venue.vegPrice ?? "N/A"} | NonVeg ₹${venue.nonVegPrice ?? "N/A"}`
-        : venue.foodType === "nonveg"
-        ? `₹${venue.nonVegPrice ?? venue.perPlate ?? "N/A"}/plate`
-        : `₹${venue.perPlate ?? venue.vegPrice ?? "N/A"}/plate`,
-
-      // ✅ Optional Contact (future)
-      phone: venue.contact || "+918726126607",
-      whatsapp: venue.contact || "917428617371",
-    });
-  }
-};
-
+        phone: venue.contact || "+918726126607",
+        whatsapp: venue.contact || "917428617371",
+      });
+    }
+  };
 
   const toggleCompare = (venue: Venue) => {
-  const isComp = compareList.some((v) => v.id === venue.id);
+    const isComp = compareList.some((v) => v.id === venue.id);
 
-  if (isComp) {
-    removeFromCompare(venue.id);
-  } else {
-    addToCompare({
-      id: venue.id,
-      name: venue.name,
-      location: venue.location,
-      address: venue.address || `${venue.location}, UP`,
-      capacity: venue.capacity,
+    if (isComp) {
+      removeFromCompare(venue.id);
+    } else {
+      addToCompare({
+        id: venue.id,
+        name: venue.name,
+        location: venue.location,
+        address: venue.address || `${venue.location}, UP`,
+        capacity: venue.capacity,
 
-      // ✅ IMPORTANT FOR COMPARE PAGE
-      vegPrice: venue.vegPrice ?? null,
-      nonVegPrice: venue.nonVegPrice ?? null,
-      perPlate: venue.perPlate ?? null,
-      budget: venue.budget ?? "—",
+        // ✅ IMPORTANT FOR COMPARE PAGE
+        vegPrice: venue.vegPrice ?? null,
+        nonVegPrice: venue.nonVegPrice ?? null,
+        perPlate: venue.perPlate ?? null,
+        budget: venue.budget ?? "—",
 
-      foodType: venue.foodType,
-      rating: venue.rating ?? 0,
-      reviews: venue.reviews ?? 0,
+        foodType: venue.foodType,
+        rating: venue.rating ?? 0,
+        reviews: venue.reviews ?? 0,
 
-      // ✅ IMAGE
-      image: venue.images?.[0] || "/placeholder.jpg",
+        // ✅ IMAGE
+        image: venue.images?.[0] || "/placeholder.jpg",
 
-      // ✅ EXTRA OPTIONAL
-      manager: venue.manager || "",
-      contact: venue.contact || "",
-      mapLink: venue.mapLink || "",
+        // ✅ EXTRA OPTIONAL
+        manager: venue.manager || "",
+        contact: venue.contact || "",
+        mapLink: venue.mapLink || "",
 
-      menuBasedPricing: venue.menuBasedPricing || false,
-      ownCateringAllowed: venue.ownCateringAllowed || false,
-      perPlateNote: venue.perPlateNote || "",
-    });
-  }
-};
+        menuBasedPricing: venue.menuBasedPricing || false,
+        ownCateringAllowed: venue.ownCateringAllowed || false,
+        perPlateNote: venue.perPlateNote || "",
+      });
+    }
+  };
 
   /* Submit Review */
 
@@ -1436,7 +2325,7 @@ const toggleFavorite = (venue: Venue) => {
 
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-          {filteredVenues.map((venue) => {
+          {currentVenues.map((venue) => {
             const isFavorite = favorites.some((f) => f.id === venue.id);
             const isCompared = compareList.some((v) => v.id === venue.id);
 
@@ -1445,11 +2334,11 @@ const toggleFavorite = (venue: Venue) => {
                 key={venue.id}
                 whileHover={{ y: -8 }}
                 className={`bg-white rounded-3xl shadow-md overflow-hidden border-2 transition-all duration-300
-                ${isCompared
+        ${isCompared
                     ? "border-blue-600 shadow-[0_0_30px_rgba(37,99,235,0.35)]"
                     : "border-gray-100 hover:border-blue-200 hover:shadow-lg"
                   }
-              `}
+      `}
               >
                 {/* IMAGE */}
                 <div className="relative h-56 overflow-hidden">
@@ -1505,6 +2394,7 @@ const toggleFavorite = (venue: Venue) => {
                   <h3 className="text-2xl font-serif font-bold text-[#0B1220] truncate">
                     {venue.name}
                   </h3>
+                  
 
                   {/* Address */}
                   <div className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -1658,6 +2548,7 @@ const toggleFavorite = (venue: Venue) => {
           })}
         </div>
 
+
         {/* MOBILE FILTER BUTTON */}
         <div className="fixed bottom-6 right-6 z-[80] md:hidden">
           <button
@@ -1673,7 +2564,40 @@ const toggleFavorite = (venue: Venue) => {
             )}
           </button>
         </div>
+{/* ✅ PAGINATION */}
+<div className="flex justify-center items-center gap-2 mt-12 flex-wrap">
 
+  <button
+    disabled={currentPage === 1}
+    onClick={() => setCurrentPage(currentPage - 1)}
+    className="px-4 py-2 bg-gray-200 rounded-lg"
+  >
+    Prev
+  </button>
+
+  {[...Array(totalPages)].map((_, index) => (
+    <button
+      key={index}
+      onClick={() => setCurrentPage(index + 1)}
+      className={`px-4 py-2 rounded-lg ${
+        currentPage === index + 1
+          ? "bg-blue-600 text-white"
+          : "bg-gray-200"
+      }`}
+    >
+      {index + 1}
+    </button>
+  ))}
+
+  <button
+    disabled={currentPage === totalPages}
+    onClick={() => setCurrentPage(currentPage + 1)}
+    className="px-4 py-2 bg-gray-200 rounded-lg"
+  >
+    Next
+  </button>
+
+</div>
         {/* MOBILE FILTER DRAWER */}
         <AnimatePresence>
           {showMobileFilter && (
@@ -1718,90 +2642,90 @@ const toggleFavorite = (venue: Venue) => {
                     ✕
                   </button>
                 </div>
-{/* Filters */}
-<div className="flex-1 px-6 py-5 space-y-4 overflow-y-auto">
+                {/* Filters */}
+                <div className="flex-1 px-6 py-5 space-y-4 overflow-y-auto">
 
-  {/* CITY */}
-  <select
-    value={filters.city}
-    onChange={(e) =>
-      setFilters((prev) => ({ ...prev, city: e.target.value }))
-    }
-    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
-  >
-    <option value="">📍 Location</option>
-    {cities.map((c) => (
-      <option key={c} value={c}>
-        {c}
-      </option>
-    ))}
-  </select>
+                  {/* CITY */}
+                  <select
+                    value={filters.city}
+                    onChange={(e) =>
+                      setFilters((prev) => ({ ...prev, city: e.target.value }))
+                    }
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
+                  >
+                    <option value="">📍 Location</option>
+                    {cities.map((c) => (
+                      <option key={c} value={c}>
+                        {c}
+                      </option>
+                    ))}
+                  </select>
 
-  {/* CAPACITY */}
-  <select
-    value={filters.capacity}
-    onChange={(e) =>
-      setFilters((prev) => ({ ...prev, capacity: e.target.value }))
-    }
-    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
-  >
-    <option value="">👥 Guests</option>
-    {capacities.map((c) => (
-      <option key={c} value={c}>
-        {c}
-      </option>
-    ))}
-  </select>
+                  {/* CAPACITY */}
+                  <select
+                    value={filters.capacity}
+                    onChange={(e) =>
+                      setFilters((prev) => ({ ...prev, capacity: e.target.value }))
+                    }
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
+                  >
+                    <option value="">👥 Guests</option>
+                    {capacities.map((c) => (
+                      <option key={c} value={c}>
+                        {c}
+                      </option>
+                    ))}
+                  </select>
 
-  {/* BUDGET */}
-  <select
-    value={filters.budget}
-    onChange={(e) =>
-      setFilters((prev) => ({ ...prev, budget: e.target.value }))
-    }
-    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
-  >
-    <option value="">💰 Budget</option>
-    {budgets.map((b) => (
-      <option key={b} value={b}>
-        {b}
-      </option>
-    ))}
-  </select>
+                  {/* BUDGET */}
+                  <select
+                    value={filters.budget}
+                    onChange={(e) =>
+                      setFilters((prev) => ({ ...prev, budget: e.target.value }))
+                    }
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
+                  >
+                    <option value="">💰 Budget</option>
+                    {budgets.map((b) => (
+                      <option key={b} value={b}>
+                        {b}
+                      </option>
+                    ))}
+                  </select>
 
-  {/* PER PLATE */}
-  <select
-    value={filters.perPlate}
-    onChange={(e) =>
-      setFilters((prev) => ({ ...prev, perPlate: e.target.value }))
-    }
-    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
-  >
-    <option value="">🍽 Per Plate</option>
-    {perPlateRanges.map((p) => (
-      <option key={p} value={p}>
-        {p}
-      </option>
-    ))}
-  </select>
+                  {/* PER PLATE */}
+                  <select
+                    value={filters.perPlate}
+                    onChange={(e) =>
+                      setFilters((prev) => ({ ...prev, perPlate: e.target.value }))
+                    }
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
+                  >
+                    <option value="">🍽 Per Plate</option>
+                    {perPlateRanges.map((p) => (
+                      <option key={p} value={p}>
+                        {p}
+                      </option>
+                    ))}
+                  </select>
 
-  {/* FOOD TYPE */}
-  <select
-    value={filters.foodType}
-    onChange={(e) =>
-      setFilters((prev) => ({ ...prev, foodType: e.target.value }))
-    }
-    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
-  >
-    <option value="">🥗 Food Type</option>
-    <option value="veg">Veg</option>
-    <option value="nonveg">Non-Veg</option>
-    <option value="both">Veg & Non-Veg</option>
-  </select>
+                  {/* FOOD TYPE */}
+                  <select
+                    value={filters.foodType}
+                    onChange={(e) =>
+                      setFilters((prev) => ({ ...prev, foodType: e.target.value }))
+                    }
+                    className="w-full px-4 py-3 rounded-xl border border-gray-300 text-gray-700"
+                  >
+                    <option value="">🥗 Food Type</option>
+                    <option value="veg">Veg</option>
+                    <option value="nonveg">Non-Veg</option>
+                    <option value="both">Veg & Non-Veg</option>
+                  </select>
 
 
 
-</div>
+                </div>
 
                 {/* Bottom Buttons */}
                 <div className="border-t border-gray-200 p-4 flex gap-3">
