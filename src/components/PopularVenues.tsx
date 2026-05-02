@@ -4,35 +4,7 @@ import { Link } from "react-router-dom";
 import VenueCard from "./VenueCard";
 
 import { useCompare } from "@/contexts/CompareContext";
-
-/* IMAGES */
-// ===== VENUE 25 =====
-import venue25_1 from "@/assets/venue25_1.jpg";
-import venue25_2 from "@/assets/venue25_2.jpg";
-import venue25_3 from "@/assets/venue25_3.jpg";
-import venue25_4 from "@/assets/venue25_4.jpg";
-import venue25_5 from "@/assets/venue25_5.jpg";
-import venue25_6 from "@/assets/venue25_6.jpg";
-
-// ===== VENUE 4 =====
-import venue4 from "@/assets/venue4.jpg";
-import venue4_2 from "@/assets/venue4_2.jpg";
-
-// ===== VENUE 34 =====
-import venue34_1 from "@/assets/venue34_1.jpg";
-import venue34_2 from "@/assets/venue34_2.jpg";
-
-// ===== VENUE 9 =====
-import venue9 from "@/assets/venue9.jpg";
-import venue9_2 from "@/assets/venue9_2.jpg";
-
-// ===== VENUE 17 =====
-import venue17_1 from "@/assets/venue17_1.jpg";
-import venue17_2 from "@/assets/venue17_2.jpg";
-
-// ===== VENUE 5 =====
-import venue5 from "@/assets/venue5.jpg";
-import venue5_2 from "@/assets/venue5_2.jpg";
+import { getVenueImages, fallbackVenueImage } from "@/lib/venueImages";
 
 /* TYPE */
 type FoodType = "veg" | "nonveg" | "both";
@@ -66,7 +38,7 @@ interface PopularVenue {
 const venues: PopularVenue[] = [
   {
     id: 25,
-    images: [venue25_1, venue25_2, venue25_3, venue25_4, venue25_5, venue25_6],
+    images: getVenueImages(25),
     name: "New Rahul Casel Banquet Lawn",
     location: "Kanpur",
     address: "Barra Bypass Road, Barra, Kanpur, Uttar Pradesh 208027",
@@ -81,7 +53,7 @@ const venues: PopularVenue[] = [
   },
   {
     id: 4,
-    images: [venue4, venue4_2],
+    images: getVenueImages(4),
     name: "Annad Manglam AC Banquet",
     location: "Kanpur",
     address: "Kidwai Nagar, Near Hanuman Mandir, Kanpur, Uttar Pradesh",
@@ -95,7 +67,7 @@ const venues: PopularVenue[] = [
   },
   {
     id: 34,
-    images: [venue34_1, venue34_2],
+    images: getVenueImages(34),
     name: "Hotel Regenta Central Crystal",
     location: "Kanpur",
     address: "The Mall Road, Civil Lines, Kanpur, Uttar Pradesh 208001",
@@ -111,7 +83,7 @@ const venues: PopularVenue[] = [
   },
   {
     id: 9,
-    images: [venue9, venue9_2],
+    images: getVenueImages(9),
     name: "Aakriti Green",
     location: "Kanpur",
     address: "Kalyanpur Road, IIT Gate Area, Kanpur, Uttar Pradesh",
@@ -126,7 +98,7 @@ const venues: PopularVenue[] = [
   },
   {
     id: 17,
-    images: [venue17_1, venue17_2],
+    images: getVenueImages(17),
     name: "Parinay Guest House",
     location: "Kanpur",
     address: "Govind Nagar, Near Main Market, Kanpur, Uttar Pradesh",
@@ -142,7 +114,7 @@ const venues: PopularVenue[] = [
   },
   {
     id: 5,
-    images: [venue5, venue5_2],
+    images: getVenueImages(5),
     name: "Hotel Manoj International",
     location: "Kanpur",
     address: "GT Road, Near Railway Station, Kanpur, Uttar Pradesh",
@@ -168,7 +140,7 @@ const PopularVenues = () => {
     } else {
       addToCompare({
         id: venue.id,
-        image: venue.images?.[0] || "/placeholder.jpg",
+        image: venue.images?.[0] || fallbackVenueImage,
         name: venue.name,
 
         // full address for compare

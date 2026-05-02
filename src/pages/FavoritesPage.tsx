@@ -21,6 +21,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { useFavoritesDB, useRemoveFavorite } from "@/hooks/useFavoritesDB";
 import { useCompare } from "@/contexts/CompareContext";
 import { toast } from "sonner";
+import { fallbackVenueImage } from "@/lib/venueImages";
 
 const FavoritesPage = () => {
   const { user } = useAuth();
@@ -141,7 +142,7 @@ const FavoritesPage = () => {
                         } else if (canAdd) {
                           addToCompare({
                             id: venue.id,
-                            image: venue.images?.[0] || "/placeholder.svg",
+                            image: venue.images?.[0] || fallbackVenueImage,
                             name: venue.name,
                             location: `${venue.city}`,
                             capacity: `${venue.capacity}`,
@@ -174,7 +175,7 @@ const FavoritesPage = () => {
                     {/* Image */}
                     <div className="relative aspect-[4/3] overflow-hidden rounded-t-2xl">
                       <img
-                        src={venue.images?.[0] || "/placeholder.svg"}
+                        src={venue.images?.[0] || fallbackVenueImage}
                         alt={venue.name}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                       />
@@ -256,7 +257,7 @@ const FavoritesPage = () => {
                     className="bg-card rounded-2xl p-4 shadow-card border border-border flex gap-4"
                   >
                     <img
-                      src={venue.images?.[0] || "/placeholder.svg"}
+                      src={venue.images?.[0] || fallbackVenueImage}
                       alt={venue.name}
                       className="w-32 h-32 object-cover rounded-xl flex-shrink-0"
                     />
@@ -306,7 +307,7 @@ const FavoritesPage = () => {
                             } else if (canAdd) {
                               addToCompare({
                                 id: venue.id,
-                                image: venue.images?.[0] || "/placeholder.svg",
+                                image: venue.images?.[0] || fallbackVenueImage,
                                 name: venue.name,
                                 location: venue.city,
                                 capacity: `${venue.capacity}`,

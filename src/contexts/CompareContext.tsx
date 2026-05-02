@@ -32,10 +32,10 @@ export interface VenueForComparison {
   priceRange?: string;
   venueType?: string;
   eventTypes?: string[];
-  manager: string;
-  contact: number | string;
-  mapLink: string;
-   perPlateNote: string;
+  manager?: string;
+  contact?: number | string;
+  mapLink?: string;
+  perPlateNote?: string;
 }
 
 interface CompareContextType {

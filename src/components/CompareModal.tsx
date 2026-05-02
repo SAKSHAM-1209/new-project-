@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { useCompare } from "@/contexts/CompareContext";
 import { Link } from "react-router-dom";
+import { fallbackVenueImage } from "@/lib/venueImages";
 
 const CompareModal = () => {
   const { compareList, isModalOpen, closeModal, removeFromCompare } =
@@ -95,7 +96,7 @@ const CompareModal = () => {
 
                         <div className="aspect-[4/3] rounded-xl overflow-hidden mb-3">
                           <img
-                            src={venue.image || "/placeholder.jpg"}
+                            src={venue.image || fallbackVenueImage}
                             alt={venue.name || "Venue"}
                             className="w-full h-full object-cover"
                           />
