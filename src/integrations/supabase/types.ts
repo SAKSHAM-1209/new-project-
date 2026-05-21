@@ -50,6 +50,51 @@ export type Database = {
           },
         ]
       }
+      bookings: {
+        Row: {
+          created_at: string
+          id: string
+          package_type: string
+          name: string
+          phone: string
+          city: string
+          event_type: string | null
+          guest_count: number | null
+          budget: string | null
+          food_type: string | null
+          event_date: string | null
+          notes: string | null
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          package_type: string
+          name: string
+          phone: string
+          city: string
+          event_type?: string | null
+          guest_count?: number | null
+          budget?: string | null
+          food_type?: string | null
+          event_date?: string | null
+          notes?: string | null
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          package_type?: string
+          name?: string
+          phone?: string
+          city?: string
+          event_type?: string | null
+          guest_count?: number | null
+          budget?: string | null
+          food_type?: string | null
+          event_date?: string | null
+          notes?: string | null
+        }
+        Relationships: []
+      }
       profiles: {
         Row: {
           avatar_url: string | null

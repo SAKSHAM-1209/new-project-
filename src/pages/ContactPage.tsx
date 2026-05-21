@@ -20,7 +20,7 @@ const ContactPage = () => {
 
   // ✅ SAVE CONTACT MESSAGE TO SUPABASE
   const saveMessageToDB = async () => {
-    const { error } = await supabase.from("contact_messages").insert([
+    const { data, error } = await supabase.from("contact_messages").insert([
       {
         name: formData.name,
         email: formData.email,
@@ -36,6 +36,7 @@ const ContactPage = () => {
       return false;
     }
 
+    console.log("Message saved successfully:", data);
     return true;
   };
 

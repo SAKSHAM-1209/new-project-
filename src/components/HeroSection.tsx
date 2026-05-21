@@ -134,6 +134,14 @@ const HeroSection = () => {
     }
   }, []);
 
+  const todayDateString = new Date().toISOString().split("T")[0];
+
+  const normalizeSearchDate = (date: string) => {
+    if (!date) return "";
+    const normalized = new Date(date).toISOString().split("T")[0];
+    return normalized;
+  };
+
   // 🔍 Search Handler
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -149,6 +157,7 @@ const HeroSection = () => {
 
     const updatedSearchData = {
       ...searchData,
+      date: normalizeSearchDate(searchData.date),
       budget: budgetMap[searchData.budget] || "",
     };
 
@@ -187,7 +196,7 @@ const HeroSection = () => {
   // ✅ SAVE BOOKING TO SUPABASE DATABASE
  const saveBookingToDB = async () => {
   const { data, error } = await supabase
-    .from("event_bookings")
+    .from("bookings")
     .insert([
       {
         package_type: selectedPackage,
@@ -470,15 +479,12 @@ const HeroSection = () => {
               <div className="relative">
                 <Calendar className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-blue-700 pointer-events-none z-10" />
 
-                {!searchData.date && (
-                  <span className="absolute left-10 top-1/2 -translate-y-1/2 text-muted-foreground text-sm pointer-events-none">
-                    Select Date
-                  </span>
-                )}
+                
 
                 <input
                   type="date"
                   value={searchData.date}
+                  min={todayDateString}
                   onChange={(e) =>
                     setSearchData({ ...searchData, date: e.target.value })
                   }
