@@ -192,47 +192,46 @@ const AboutPage = () => {
         </div>
       </section>
 
- {/* FOUNDERS SECTION (UPDATED PREMIUM) */}
-<section className="py-16 sm:py-24 bg-gradient-to-b from-muted via-background to-background px-4">
+ {/* FOUNDERS */}
+<section className="py-14 sm:py-20 md:py-24 px-4">
   <div className="container-premium">
     <motion.div
       initial={{ opacity: 0, y: 25 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="text-center mb-14"
+      className="text-center mb-10 sm:mb-16"
     >
-      <span className="inline-flex items-center gap-2 text-blue-600 font-semibold text-xs sm:text-sm uppercase tracking-widest mb-4 px-5 py-2 rounded-full bg-blue-600/10 border border-blue-600/20">
-        <Sparkles className="w-4 h-4" />
-        Our Leadership
+      <span className="inline-block text-blue-600 font-semibold text-xs sm:text-sm uppercase tracking-widest mb-3 sm:mb-4">
+        Leadership
       </span>
 
-      <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-foreground">
-        Meet The <span className="text-blue-600">Founders</span>
+      <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
+        Meet Our <span className="text-blue-600">Founder</span>
       </h2>
 
-      <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base mt-4 leading-relaxed">
-        The people behind Find My Banquet who are building India’s most trusted
-        and premium banquet discovery platform.
+      <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base leading-relaxed px-2 sm:px-0">
+        Driven by innovation and customer satisfaction, our leadership is
+        focused on making venue discovery simple, trusted and premium.
       </p>
     </motion.div>
 
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-      {/* Founder */}
+    {/* Founder Card Centered */}
+    <div className="flex justify-center">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="bg-card border border-border rounded-[2.5rem] p-8 shadow-card hover:shadow-hover transition-all duration-500 group relative overflow-hidden"
+        className="w-full max-w-4xl bg-card border border-border rounded-[2.5rem] p-8 sm:p-10 shadow-card hover:shadow-hover transition-all duration-500 group relative overflow-hidden"
       >
         {/* Premium Gradient Glow */}
         <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-transparent to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-        <div className="flex flex-col sm:flex-row gap-7 items-center sm:items-start relative z-10">
-          {/* Bigger Image */}
+        <div className="flex flex-col items-center text-center relative z-10">
+          {/* Founder Image */}
           <div className="relative">
-            <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-full overflow-hidden border-[6px] border-blue-600/25 shadow-xl bg-muted flex items-center justify-center">
+            <div className="w-40 h-40 sm:w-52 sm:h-52 rounded-full overflow-hidden border-[6px] border-blue-600/25 shadow-xl bg-muted flex items-center justify-center">
               <img
                 src={founderImg}
                 alt="Founder"
@@ -240,90 +239,39 @@ const AboutPage = () => {
               />
             </div>
 
-            {/* Premium Ring */}
+            {/* Ring */}
             <div className="absolute inset-0 rounded-full ring-2 ring-blue-500/20" />
           </div>
 
-          {/* Info */}
-          <div className="flex-1 text-center sm:text-left">
-            <h3 className="text-2xl sm:text-3xl font-bold text-foreground font-serif">
+          {/* Founder Info */}
+          <div className="mt-6">
+            <h3 className="text-3xl sm:text-4xl font-bold text-foreground font-serif">
               Aastik Sri Krishna Pandey
             </h3>
 
-            <p className="text-blue-600 font-semibold text-sm sm:text-base mt-1">
+            <p className="text-blue-600 font-semibold text-base sm:text-lg mt-2">
               Founder & CEO
             </p>
 
-            <p className="text-muted-foreground text-sm sm:text-base mt-4 leading-relaxed">
+            <p className="text-muted-foreground text-sm sm:text-base mt-5 leading-relaxed max-w-2xl mx-auto">
               Leading the vision of Find My Banquet with a mission to deliver
               verified venues, transparent pricing and a premium booking
-              experience across India.
+              experience across India. His focus is on building trust,
+              innovation and customer-first solutions that simplify venue
+              discovery for every celebration.
             </p>
           </div>
         </div>
 
-        {/* Quote */}
-        <div className="mt-8 bg-muted rounded-3xl p-6 border border-border relative overflow-hidden">
+        {/* Quote Section */}
+        <div className="mt-10 bg-muted rounded-3xl p-6 sm:p-8 border border-border relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-transparent opacity-60" />
+
           <Quote className="w-6 h-6 text-blue-600 absolute -top-3 left-6 bg-card rounded-full p-1 shadow" />
-          <p className="text-muted-foreground italic text-sm sm:text-base leading-relaxed relative z-10">
+
+          <p className="text-muted-foreground italic text-sm sm:text-base leading-relaxed relative z-10 text-center">
             “We built Find My Banquet to make venue discovery simple, trusted
             and premium for every celebration.”
-          </p>
-        </div>
-      </motion.div>
-
-      {/* Co-Founder */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.1 }}
-        className="bg-card border border-border rounded-[2.5rem] p-8 shadow-card hover:shadow-hover transition-all duration-500 group relative overflow-hidden"
-      >
-        {/* Premium Gradient Glow */}
-        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-transparent to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
-        <div className="flex flex-col sm:flex-row gap-7 items-center sm:items-start relative z-10">
-          {/* Bigger Image */}
-          <div className="relative">
-            <div className="w-36 h-36 sm:w-44 sm:h-44 rounded-full overflow-hidden border-[6px] border-blue-600/25 shadow-xl bg-muted flex items-center justify-center">
-              <img
-                src={coFounderImg}
-                alt="Co-Founder"
-                className="w-full h-full object-contain object-center group-hover:scale-105 transition-transform duration-700"
-              />
-            </div>
-
-            {/* Premium Ring */}
-            <div className="absolute inset-0 rounded-full ring-2 ring-blue-500/20" />
-          </div>
-
-          {/* Info */}
-          <div className="flex-1 text-center sm:text-left">
-            <h3 className="text-2xl sm:text-3xl font-bold text-foreground font-serif">
-              Himanshu Gupta
-            </h3>
-
-            <p className="text-blue-600 font-semibold text-sm sm:text-base mt-1">
-              
-              Founder & Operations Head
-            </p>
-
-            <p className="text-muted-foreground text-sm sm:text-base mt-4 leading-relaxed">
-              Managing operations and ensuring every user gets verified venue
-              details, fast responses and a smooth booking journey.
-            </p>
-          </div>
-        </div>
-
-        {/* Quote */}
-        <div className="mt-8 bg-muted rounded-3xl p-6 border border-border relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/10 to-transparent opacity-60" />
-          <Quote className="w-6 h-6 text-blue-600 absolute -top-3 left-6 bg-card rounded-full p-1 shadow" />
-          <p className="text-muted-foreground italic text-sm sm:text-base leading-relaxed relative z-10">
-            “Our goal is to make booking transparent, easy and premium — so your
-            celebration starts stress-free.”
           </p>
         </div>
       </motion.div>
@@ -331,76 +279,75 @@ const AboutPage = () => {
   </div>
 </section>
 
-      {/* VALUES */}
-      <section className="py-14 sm:py-20 md:py-24 px-4">
-        <div className="container-premium">
-          <motion.div
-            initial={{ opacity: 0, y: 25 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="text-center mb-10 sm:mb-16"
-          >
-            <span className="inline-block text-blue-600 font-semibold text-xs sm:text-sm uppercase tracking-widest mb-3 sm:mb-4">
-              Our Values
-            </span>
+{/* VALUES */}
+<section className="py-14 sm:py-20 md:py-24 px-4">
+  <div className="container-premium">
+    <motion.div
+      initial={{ opacity: 0, y: 25 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+      className="text-center mb-10 sm:mb-16"
+    >
+      <span className="inline-block text-blue-600 font-semibold text-xs sm:text-sm uppercase tracking-widest mb-3 sm:mb-4">
+        Our Values
+      </span>
 
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
-              What Makes Us <span className="text-blue-600">Different</span>
-            </h2>
+      <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
+        What Makes Us <span className="text-blue-600">Different</span>
+      </h2>
 
-            <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base leading-relaxed px-2 sm:px-0">
-              We focus on trust, quality and customer satisfaction to deliver
-              the best venue discovery experience.
-            </p>
-          </motion.div>
+      <p className="text-muted-foreground max-w-2xl mx-auto text-sm sm:text-base leading-relaxed px-2 sm:px-0">
+        We focus on trust, quality and customer satisfaction to deliver the
+        best venue discovery experience.
+      </p>
+    </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-            {[
-              {
-                icon: Shield,
-                title: "Trust & Transparency",
-                description:
-                  "Verified photos, accurate pricing and genuine details — no fake listings.",
-              },
-              {
-                icon: Users,
-                title: "Customer Support",
-                description:
-                  "Our team is always ready to guide you and help you book the perfect venue.",
-              },
-              {
-                icon: Award,
-                title: "Premium Quality",
-                description:
-                  "Only top venues that match our standards are listed on Find My Banquet.",
-              },
-            ].map((value, index) => (
-              <motion.div
-                key={value.title}
-                initial={{ opacity: 0, y: 25 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.08 }}
-                className="bg-card rounded-3xl p-7 sm:p-8 text-center shadow-card border border-border hover:border-blue-300 hover:shadow-hover transition-all duration-300"
-              >
-                <div className="w-16 h-16 mx-auto rounded-2xl bg-blue-100 flex items-center justify-center mb-6">
-                  <value.icon className="w-8 h-8 text-blue-600" />
-                </div>
-
-                <h3 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-3">
-                  {value.title}
-                </h3>
-
-                <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                  {value.description}
-                </p>
-              </motion.div>
-            ))}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+      {[
+        {
+          icon: Shield,
+          title: "Trust & Transparency",
+          description:
+            "Verified photos, accurate pricing and genuine details — no fake listings.",
+        },
+        {
+          icon: Users,
+          title: "Customer Support",
+          description:
+            "Our team is always ready to guide you and help you book the perfect venue.",
+        },
+        {
+          icon: Award,
+          title: "Premium Quality",
+          description:
+            "Only top venues that match our standards are listed on Find My Banquet.",
+        },
+      ].map((value, index) => (
+        <motion.div
+          key={value.title}
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: index * 0.08 }}
+          className="bg-card rounded-3xl p-7 sm:p-8 text-center shadow-card border border-border hover:border-blue-300 hover:shadow-hover transition-all duration-300"
+        >
+          <div className="w-16 h-16 mx-auto rounded-2xl bg-blue-100 flex items-center justify-center mb-6">
+            <value.icon className="w-8 h-8 text-blue-600" />
           </div>
-        </div>
-      </section>
 
+          <h3 className="font-serif text-lg sm:text-xl font-bold text-foreground mb-3">
+            {value.title}
+          </h3>
+
+          <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
+            {value.description}
+          </p>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
       <Footer />
     </div>
   );
